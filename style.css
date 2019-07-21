@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+body {
+	background-color:#1A1A1A;
+	margin: 0;
+	height: 100%;
+}
+.mainwrapper {
+	overflow: hidden;
+}
+.player {
+	height: 100vh;
+	width: calc(100% - 370px);
+	float: left;
+	position: relative;
+}
+.player-wrapper {
+	width: 100%;
+	padding-top: 56.25%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.freecaster-player {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0; 
+}
+.chat {
+	height: 100vh;
+	width: 370px;
+	overflow: hidden;
+}
