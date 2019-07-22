@@ -3,21 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="description" content="Simple website combining Tomorrowland broadcast and twitch chat.">
-<meta name="keywords" content="Tomorrowland, Twitch, Chat, FrankerFaceZ, bttv, TriHard, HandsUp">
-<title>TMLLive - Tomorrowland broadcast with Twitch chat</title>
+<meta name="keywords" content="Tomorrowland, Twitch, Chat, FrankerFaceZ, bttv, TriHard, HandsUp, livestream, broadcast, 1080p, hd, freecaster">
+<title>TMLLive - Tomorrowland 2019</title>
 <link href="style.css" rel="stylesheet">
+<script src="js/main.js"></script>
 </head>
 
 <body>
 <div class="mainwrapper">
-	<div class="player">
+	<div class="player" id="player">
 		<div class="player-wrapper">
 			<div class="freecaster-player">
 				 <iframe src="http://player.freecaster.com/embed/1287698?autoplay=true" height="100%" width="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
-	<div class="chat">
+	<div class="chat" id="chat">
 		<iframe frameborder="0"
 				scrolling="yes"
 				id="tmllivecom"
